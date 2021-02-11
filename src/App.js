@@ -22,6 +22,8 @@ function App() {
     setCart(cart.filter((p) => p.id !== plant.id));
   };
 
+
+
   return (
     <div>
       <Router>
